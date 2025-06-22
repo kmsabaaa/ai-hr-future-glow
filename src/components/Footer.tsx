@@ -11,11 +11,12 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
           {/* Logo and branding */}
           <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 bg-red-500 rounded-lg flex items-center justify-center enhance-glow">
-              <span className="text-white font-bold text-xl">E</span>
-            </div>
+            <img 
+              src="/lovable-uploads/3061a73f-367f-425d-a1cd-9c1c1e728217.png" 
+              alt="Enhance Training Institute"
+              className="h-12 w-auto"
+            />
             <div>
-              <div className="text-white font-semibold text-lg">Enhance Training Institute</div>
               <div className="text-slate-400 text-sm">{t('footer.shrm')}</div>
             </div>
           </div>
@@ -64,9 +65,11 @@ const Footer: React.FC = () => {
         {/* SHRM Badge */}
         <div className="text-center mt-8 pt-8 border-t border-slate-800">
           <div className="inline-flex items-center space-x-3 px-6 py-3 bg-slate-800/50 rounded-full border border-slate-700">
-            <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">S</span>
-            </div>
+            <img 
+              src="/lovable-uploads/3efac8c9-08df-4af3-976f-d7ed7802d5d5.png" 
+              alt="SHRM"
+              className="h-8 w-auto"
+            />
             <span className="text-slate-400 text-sm">{t('footer.shrm')}</span>
           </div>
         </div>

@@ -47,9 +47,11 @@ const HeroSection: React.FC = () => {
         {/* SHRM Badge */}
         <div className="mt-12 animate-fade-in" style={{ animationDelay: '1s', animationFillMode: 'both' }}>
           <div className="inline-flex items-center space-x-3 px-6 py-3 bg-slate-800/50 rounded-full border border-slate-600">
-            <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">S</span>
-            </div>
+            <img 
+              src="/lovable-uploads/3efac8c9-08df-4af3-976f-d7ed7802d5d5.png" 
+              alt="SHRM"
+              className="h-8 w-auto"
+            />
             <span className="text-slate-300 font-medium">Officially Accredited by SHRM</span>
           </div>
         </div>

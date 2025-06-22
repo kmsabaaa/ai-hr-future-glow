@@ -17,10 +17,11 @@ const Navigation: React.FC = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 bg-red-500 rounded-lg flex items-center justify-center enhance-glow">
-            <span className="text-white font-bold text-lg">E</span>
-          </div>
-          <span className="text-white font-semibold text-lg">Enhance Training</span>
+          <img 
+            src="/lovable-uploads/3061a73f-367f-425d-a1cd-9c1c1e728217.png" 
+            alt="Enhance Training Institute"
+            className="h-8 w-auto"
+          />
         </div>
         
         {/* Navigation Links */}
